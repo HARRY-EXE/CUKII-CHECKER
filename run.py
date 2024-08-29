@@ -16,7 +16,7 @@ def check_internet():
 if check_internet():
     pass
 else:
-    exit("•\x1b[38;5;196m ->\x1b[37m NO INTERNET CONNECTION")
+    exit(" •\x1b[38;5;196m ->\x1b[37m NO INTERNET CONNECTION")
         
 def check_python_architecture():
     global arc
@@ -24,7 +24,7 @@ def check_python_architecture():
     if architecture[0] == '32bit':
         arc = "32BIT"
         print(f' •\x1b[38;5;196m ->\x1b[37m 32BIT DETECTED')
-        exit("•\x1b[38;5;196m ->\x1b[37m UNSUPPORTED DEVICE TYPE")
+        exit(" •\x1b[38;5;196m ->\x1b[37m UNSUPPORTED DEVICE TYPE")
     elif architecture[0] == '64bit':
         arc = "64BIT"
         print(f' •\x1b[38;5;196m ->\x1b[37m 64BIT DETECTED')
